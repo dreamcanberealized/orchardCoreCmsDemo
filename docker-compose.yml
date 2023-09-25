@@ -1,0 +1,38 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP.NET Core service.
+
+version: '3.4'
+
+services:
+  orchardcorecms:
+    image: orchardcorecms
+    build:
+      context: .
+      dockerfile: orchardcorecms/Dockerfile
+    ports:
+      - 5050:80
+    volumes:
+      - ./orchardcorecms/App_Data:/app/App_Data
+    depends_on:
+      - postgres
+    networks:
+      - headless
+  postgres:
+    image: postgres:15
+    container_name: pgsql
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      - cms_pgsql_data:/var/lib/postgres/data
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+    networks:
+      - headless
+
+volumes:
+  cms_pgsql_data:
+
+networks:
+  headless:  
