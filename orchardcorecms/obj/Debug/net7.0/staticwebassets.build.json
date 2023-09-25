@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "/P1dJIp2KIQnPScJjsAkEQIRPM7Ae+031677tZVAAZI=",
+  "Source": "orchardCoreCms",
+  "BasePath": "_content/orchardCoreCms",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "orchardCoreCms\\wwwroot",
+      "Source": "orchardCoreCms",
+      "ContentRoot": "E:\\netProject\\orchardcorecms\\orchardCoreCms\\wwwroot\\",
+      "BasePath": "_content/orchardCoreCms",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\netProject\\orchardcorecms\\orchardCoreCms\\wwwroot\\.placeholder",
+      "SourceId": "orchardCoreCms",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\netProject\\orchardcorecms\\orchardCoreCms\\wwwroot\\",
+      "BasePath": "_content/orchardCoreCms",
+      "RelativePath": ".placeholder",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\.placeholder"
+    }
+  ]
+}

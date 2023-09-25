@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\netProject\\orchardcorecms\\orchardCoreCms\\wwwroot\\.placeholder",
+      "PackagePath": "staticwebassets\\.placeholder"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.orchardCoreCms.props",
+      "PackagePath": "build\\orchardCoreCms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.orchardCoreCms.props",
+      "PackagePath": "buildMultiTargeting\\orchardCoreCms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.orchardCoreCms.props",
+      "PackagePath": "buildTransitive\\orchardCoreCms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.orchardCoreCms.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
